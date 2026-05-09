@@ -4,6 +4,7 @@ import polars as pl
 ns_map = {'mw': 'http://www.mediawiki.org/xml/export-0.11/'}
 ns_prefix = '{http://www.mediawiki.org/xml/export-0.11/}'
 
+# file names (example below)
 stems = ['enwiki-2026-05-01-p80590276p83077138','enwiki-2026-05-01-p76112843p80590275','enwiki-2026-05-01-p71618412p76112841']
 
 # input assumed decompressed
